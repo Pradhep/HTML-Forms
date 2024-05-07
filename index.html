@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1 id="title">HTML Forms</h1>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <h1 style="text-align: center;">DOM Manipulation with Forms</h1>
+    <p id="description" style="text-align: center;"> DOM Manipulation with Forms</p>
+    <form id="form">
+        <label>First Name</label>
+        <input type="text" id="first-name" class="first-name" placeholder="First Name">
+
+        <br>
+        <label>Last Name</label>
+        <input type="text" id="last-name" placeholder="Last Name">
+        <br>
+        <label>Address</label>
+        <input type="text" id="address" placeholder="Address">
+        <br>
+        <label>Pincode</label>
+        <input type="text" id="pincode" placeholder="Pincode">
+        <br>
+        <label>Gender</label>
+        <input type="text" id="gender" placeholder="Gender">
+        <br>
+        <label>Choice of Food</label>
+        <br>
+        <!-- <input type="radio" id="F1">
+         <label for="F1">Idly</label><br>
+         <input type="radio" id="F2">
+         <label for="F2">Dosa</label><br>
+         <input type="radio" id="F3">
+         <label for="F3">Poori</label><br>
+         <input type="radio" id="F4">
+         <label for="F4">Pongal</label><br>
+         <input type="radio" id="F5">
+         <label for="F5">Idiyappam</label><br>
+        -->
+        <div id="Foodcheckbox" >
+            <input type="checkbox" name="Idly" value="Idly"> Idly<br>
+            <input type="checkbox" name="Dosa" value="Dosa"> Dosa<br>
+            <input type="checkbox" name="Poori" value="Poori"> Poori<br>
+            <input type="checkbox" name="Pongal" value="Pongal"> Pongal<br>
+            <input type="checkbox" name="Idiyappam" value="Idiyappam"> Idiyappam<br>            
+        </div>
+        <br> 
+        <label>State</label>
+        <input type="text" id="state" placeholder="State"> 
+        <br>
+        <label>Country</label>
+        <input type="text" id="country" placeholder="Country">
+        <br>
+        <label style="color: red;" id="error" value=""></label>
+</form>
+    <div>
+        
+
+        <input type="button" class="button" id="button" onclick="Submit()" value="Submit">
+    </div>
+    <br>
+    <table id ="tableid" class="table">
+        <thead>
+            <!-- <th>Serial No</th> -->
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Address</th>
+            <th>Pincode</th>
+            <th>Gender</th>
+            <th>Food</th>
+            <th>State</th>
+            <th>Country</th>
+        </thead>
+        <!-- <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+            <td>Germany</td>
+            <td>Germany</td>
+            <td>Germany</td>
+            <td>Germany</td>
+            <td>Germany</td>
+            <td>Germany</td>
+        </tr> -->
+       
+
+        
+    </table>
+
+    <script src="./script.js"></script>
+    <!-- <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,15 @@
+form{
+    padding: 40px;
+    justify-content: space-between;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    padding: 40px;
+}
+
+th,td{
+    border: 1px solid black;
+    text-align: center;
+}
+
